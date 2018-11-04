@@ -21,7 +21,7 @@ function ensureAuthenticated( req, res, next){
     }
     res.redirect('/users/login');
 }
-
+/*Privacy Policy*/
 router.get('/privacy-policy', (req, res, next) => {
     var db = req.db;
     var posts = db.get('posts');
@@ -30,7 +30,7 @@ router.get('/privacy-policy', (req, res, next) => {
     });
     
 });
-
+/*GET how to use */
 router.get('/howtouse', (req, res, next) => {
     var db = req.db;
     var posts = db.get('posts');

@@ -7,7 +7,7 @@ if(process.env.MONGODB_URI) {
    
 }else {
 
-    mongoose.connect('mongodb://rogthat:21savage@ds151293.mlab.com:51293/servicebots/user-login-system', function(err){ //db = 'mongodb://localhost/yourdb'
+    mongoose.connect('mongodb://rogthat:21savage@ds151293.mlab.com:51293/servicebots', function(err){ //db = 'mongodb://localhost/yourdb'
         if(err){
             console.log(err);
         }else {
