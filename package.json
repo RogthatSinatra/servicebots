@@ -1,0 +1,49 @@
+{
+  "name": "servicebots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^1.0.0-alpha.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "cookie-session": "^2.0.0-beta.3",
+    "debug": "*",
+    "express": "*",
+    "express-favicon": "^2.0.1",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "handlebars-helpers": "^0.9.8",
+    "hbs": "*",
+    "moment": "^2.19.1",
+    "mongodb": "*",
+    "mongoose": "*",
+    "monk": "^6.0.5",
+    "morgan": "*",
+    "multer": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "serve-favicon": "^2.5.0",
+    "template-helpers": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogthatSinatra/servicebots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogthatsinatra/servicebots/issues"
+  },
+  "homepage": "https://github.com/rogthatsinatra/servicebots#readme"
+}
